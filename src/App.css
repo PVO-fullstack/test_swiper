@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+
+span.swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 1;
+}
+
+span.swiper-pagination-bullet-active {
+  background-color: #3987ec;
+  opacity: 1;
+}
